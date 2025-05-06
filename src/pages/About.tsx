@@ -25,8 +25,8 @@ const About = () => {
               <div className="relative">
                 <div className="bg-college-red/20 absolute -top-6 -left-6 w-full h-full rounded-lg"></div>
                 <img 
-                  src="/lovable-uploads/72cbac27-d950-4369-be31-04105a12170d.png" 
-                  alt="Shri Bajrang Paramedical College" 
+                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4OTY5NzM3Mg&ixlib=rb-4.0.3&q=80&w=1080" 
+                  alt="Medical Students Learning" 
                   className="relative rounded-lg w-full" 
                 />
               </div>

@@ -60,10 +60,10 @@ const Index = () => {
           <div className="w-full lg:w-1/2 lg:pl-8 flex justify-center lg:justify-end">
             <div className="relative w-80 h-80 md:w-96 md:h-96">
               <img
-                src="/lovable-uploads/94692acf-b6ac-4ab6-96e2-8985212fca20.png"
-                alt="College Logo"
+                src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4OTY5NzM3Mg&ixlib=rb-4.0.3&q=80&w=1080"
+                alt="Medical Education"
                 className="rounded-full border-4 border-white shadow-lg"
-                style={{ objectFit: 'contain', width: '100%', height: '100%' }}
+                style={{ objectFit: 'cover', width: '100%', height: '100%' }}
               />
             </div>
           </div>

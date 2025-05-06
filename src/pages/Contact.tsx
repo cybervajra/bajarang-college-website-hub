@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -130,15 +129,11 @@ const Contact = () => {
             <div>
               <h2 className="text-3xl font-bold mb-6">Find <span className="text-college-blue">Us</span></h2>
               <div className="rounded-lg overflow-hidden border border-gray-200 h-[400px]">
-                {/* Embed a Google Maps iframe here */}
-                <div className="w-full h-full bg-gray-100 flex items-center justify-center">
-                  <div className="text-center p-4">
-                    <MapPin className="h-10 w-10 text-gray-400 mx-auto mb-2" />
-                    <p className="text-gray-500">
-                      Map placeholder - Embed actual Google Maps for the college locations
-                    </p>
-                  </div>
-                </div>
+                <img 
+                  src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4OTY5NzM3Mg&ixlib=rb-4.0.3&q=80&w=1080" 
+                  alt="College Campus Map" 
+                  className="w-full h-full object-cover" 
+                />
               </div>
             </div>
           </div>
